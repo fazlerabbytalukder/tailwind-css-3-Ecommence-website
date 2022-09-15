@@ -605,6 +605,13 @@ h1, h2, h3, h4, h5, h6{
   position: relative;
 }
 
+.inset-0{
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
 .left-4{
   left: 1rem;
 }
@@ -652,6 +659,10 @@ h1, h2, h3, h4, h5, h6{
 
 .mt-12{
   margin-top: 3rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .flex{
@@ -730,6 +741,10 @@ h1, h2, h3, h4, h5, h6{
   gap: 1.25rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -750,6 +765,10 @@ h1, h2, h3, h4, h5, h6{
 
 .divide-dashed > :not([hidden]) ~ :not([hidden]){
   border-style: dashed;
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .rounded-full{
@@ -800,6 +819,15 @@ h1, h2, h3, h4, h5, h6{
 .bg-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-40{
+  --tw-bg-opacity: 0.4;
 }
 
 .bg-cover{
@@ -869,6 +897,11 @@ h1, h2, h3, h4, h5, h6{
   padding-right: 0.75rem;
 }
 
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pl-12{
   padding-left: 3rem;
 }
@@ -879,6 +912,10 @@ h1, h2, h3, h4, h5, h6{
 
 .text-center{
   text-align: center;
+}
+
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-lg{
@@ -906,8 +943,22 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-medium{
   font-weight: 500;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 .capitalize{
@@ -1011,6 +1062,14 @@ h1, h2, h3, h4, h5, h6{
 
 .group:hover .group-hover\:block{
   display: block;
+}
+
+.group:hover .group-hover\:bg-opacity-60{
+  --tw-bg-opacity: 0.6;
+}
+
+.group:hover .group-hover\:bg-opacity-50{
+  --tw-bg-opacity: 0.5;
 }
 
 .group:hover .group-hover\:opacity-100{
